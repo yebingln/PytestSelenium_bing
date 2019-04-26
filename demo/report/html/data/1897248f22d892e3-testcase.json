@@ -1,0 +1,59 @@
+{
+  "uid" : "1897248f22d892e3",
+  "name" : "test_baidu.test_case_01",
+  "title" : "Test case 01",
+  "time" : {
+    "start" : 1556105688445,
+    "stop" : 1556105688448,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n    用例描述：Test case 01\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "BLOCKER",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7c271616c7d06698",
+    "name" : "demo",
+    "title" : "Demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "feature",
+    "value" : "test_module_01"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "thread",
+    "value" : "11162-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

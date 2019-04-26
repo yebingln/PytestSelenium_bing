@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1556173949724,
+    "stop" : 1556173956136,
+    "duration" : 6412
+  },
+  "testSuites" : [ {
+    "uid" : "3135363548638fc",
+    "name" : "demo",
+    "title" : "Demo",
+    "time" : {
+      "start" : 1556173949724,
+      "stop" : 1556173956136,
+      "duration" : 6412
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f5f863d5f16e7aeb",
+      "name" : "test_baidu.Testbaidu.test_k",
+      "title" : "Test k",
+      "time" : {
+        "start" : 1556173949724,
+        "stop" : 1556173956132,
+        "duration" : 6408
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "b0b59ea6090578d7",
+      "name" : "test_baidu.test_case_01",
+      "title" : "Test case 01",
+      "time" : {
+        "start" : 1556173956134,
+        "stop" : 1556173956135,
+        "duration" : 1
+      },
+      "severity" : "BLOCKER",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c05e7053c0d16f8f",
+      "name" : "test_baidu.test_case_02",
+      "title" : "Test case 02",
+      "time" : {
+        "start" : 1556173956135,
+        "stop" : 1556173956136,
+        "duration" : 1
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,42 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1556174852167" stop="1556174852270">
+  <name>test_base</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1556174852167" status="failed" stop="1556174852270">
+      <name>test_b1</name>
+      <failure>
+        <message>AttributeError: 'str' object has no attribute 'get'</message>
+        <stack-trace>def test_b1():
+        print(base())
+        # base.browse()
+&gt;       base.get('https://www.baidu.com/')
+
+demo/objBase/test_base.py:7: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;core.caseTemplate.Base object at 0x10c4d0208&gt;, url = 'https://www.baidu.com/'
+
+    def get(self, url):
+        """
+        get url.
+    
+        Usage:
+        driver.get("https://www.baidu.com")
+        """
+&gt;       self.driver.get(url)
+E       AttributeError: 'str' object has no attribute 'get'
+
+core/webdriver_api.py:110: AttributeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24046-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

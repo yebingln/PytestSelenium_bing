@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "1c72cbaa5be78295",
+      "failure" : {
+        "message" : "AttributeError: 'str' object has no attribute 'get'",
+        "stackTrace" : "def test_b1():\n        print(base())\n        # base.browse()\n>       base.get('https://www.baidu.com/')\n\ndemo/objBase/test_base.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <core.caseTemplate.Base object at 0x10c4d0208>, url = 'https://www.baidu.com/'\n\n    def get(self, url):\n        \"\"\"\n        get url.\n    \n        Usage:\n        driver.get(\"https://www.baidu.com\")\n        \"\"\"\n>       self.driver.get(url)\nE       AttributeError: 'str' object has no attribute 'get'\n\ncore/webdriver_api.py:110: AttributeError"
+      },
+      "testCases" : [ {
+        "uid" : "4acf14887a5efe0e",
+        "name" : "test_b1",
+        "title" : "Test b 1",
+        "time" : {
+          "start" : 1556174852167,
+          "stop" : 1556174852270,
+          "duration" : 103
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

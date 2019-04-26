@@ -1,0 +1,83 @@
+{
+  "uid" : "126b3e5dc5312b2d",
+  "name" : "test_allure_step.test_case",
+  "title" : "Test case",
+  "time" : {
+    "start" : 1556105613177,
+    "stop" : 1556105613180,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "BLOCKER",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com"
+  },
+  "suite" : {
+    "uid" : "4e9c483d91707586",
+    "name" : "demo",
+    "title" : "Demo"
+  },
+  "steps" : [ {
+    "name" : "字符串相加：hello，world",
+    "title" : "字符串相加：hello，world",
+    "time" : {
+      "start" : 1556105613179,
+      "stop" : 1556105613179,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com"
+  } ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "feature",
+    "value" : "test_module_01"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "testId",
+    "value" : "http://www.testlink.com"
+  }, {
+    "name" : "issue",
+    "value" : "http://www.baidu.com"
+  }, {
+    "name" : "thread",
+    "value" : "11064-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

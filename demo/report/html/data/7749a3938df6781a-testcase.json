@@ -1,0 +1,62 @@
+{
+  "uid" : "7749a3938df6781a",
+  "name" : "test_baidu.Testbaidu.test_k",
+  "title" : "Test k",
+  "time" : {
+    "start" : 1556173892316,
+    "stop" : 1556173898500,
+    "duration" : 6184
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "211b74593c5e57b3",
+    "name" : "demo",
+    "title" : "Demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Testbaidu",
+    "source" : "4aad4906-a954-4c5c-b754-074ecf5a1637-attachment.png",
+    "type" : "image/png",
+    "size" : 37602,
+    "uid" : "7bcd856b2d43d6ab"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "thread",
+    "value" : "23224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "基于Base(webdriver)类的cases"
+  }, {
+    "name" : "feature",
+    "value" : "UI自动化测试集"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

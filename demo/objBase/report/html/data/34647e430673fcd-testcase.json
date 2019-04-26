@@ -1,0 +1,50 @@
+{
+  "uid" : "34647e430673fcd",
+  "name" : "test_b1",
+  "title" : "Test b 1",
+  "time" : {
+    "start" : 1556174783290,
+    "stop" : 1556174788265,
+    "duration" : 4975
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a20f22d70ddec6ce",
+    "name" : "test_base",
+    "title" : "Test base"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "23986-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_base"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

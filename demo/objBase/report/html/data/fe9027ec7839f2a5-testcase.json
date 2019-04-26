@@ -1,0 +1,53 @@
+{
+  "uid" : "fe9027ec7839f2a5",
+  "name" : "test_b1",
+  "title" : "Test b 1",
+  "time" : {
+    "start" : 1556174335634,
+    "stop" : 1556174335741,
+    "duration" : 107
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AttributeError: 'Base' object has no attribute 'driver'",
+    "stackTrace" : "def test_b1():\n        # print(i for i in base.browser_setup_and_teardown())\n        base.browse\n>       base.get('https://www.baidu.com/')\n\ndemo/objBase/test_base.py:6: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <core.caseTemplate.Base object at 0x10f7cc7f0>, url = 'https://www.baidu.com/'\n\n    def get(self, url):\n        \"\"\"\n        get url.\n    \n        Usage:\n        driver.get(\"https://www.baidu.com\")\n        \"\"\"\n>       self.driver.get(url)\nE       AttributeError: 'Base' object has no attribute 'driver'\n\ncore/webdriver_api.py:108: AttributeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f0a3493c3c57db2d",
+    "name" : "test_base",
+    "title" : "Test base"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_base"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "thread",
+    "value" : "23566-MainThread"
+  } ],
+  "parameters" : [ ]
+}

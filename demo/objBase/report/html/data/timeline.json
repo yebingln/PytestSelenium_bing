@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "bogon",
+    "threads" : [ {
+      "title" : "24046-MainThread",
+      "testCases" : [ {
+        "uid" : "4acf14887a5efe0e",
+        "name" : "test_b1",
+        "title" : "Test b 1",
+        "time" : {
+          "start" : 1556174852167,
+          "stop" : 1556174852270,
+          "duration" : 103
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

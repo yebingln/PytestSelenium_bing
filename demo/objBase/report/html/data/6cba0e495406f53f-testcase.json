@@ -1,0 +1,53 @@
+{
+  "uid" : "6cba0e495406f53f",
+  "name" : "test_b1",
+  "title" : "Test b 1",
+  "time" : {
+    "start" : 1556174392426,
+    "stop" : 1556174397281,
+    "duration" : 4855
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AttributeError: 'WebDriver' object has no attribute 'quite'",
+    "stackTrace" : "def test_b1():\n        # print(i for i in base.browser_setup_and_teardown())\n        base.browse()\n        base.get('https://www.baidu.com/')\n        base.sleep(2)\n>       base.quite()\n\ndemo/objBase/test_base.py:8: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'core.caseTemplate.Base'>\n\n    @classmethod\n    def quite(cls):\n>       cls.driver.quite()\nE       AttributeError: 'WebDriver' object has no attribute 'quite'\n\ncore/webdriver_api.py:29: AttributeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "13713c586b2dc6ea",
+    "name" : "test_base",
+    "title" : "Test base"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "23641-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_base"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

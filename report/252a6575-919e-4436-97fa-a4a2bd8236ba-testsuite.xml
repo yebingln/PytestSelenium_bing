@@ -1,0 +1,65 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1556105613177" stop="1556105613187">
+  <name>demo</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1556105613177" status="passed" stop="1556105613180">
+      <name>test_allure_step.test_case</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="http://www.testlink.com"/>
+        <label name="issue" value="http://www.baidu.com"/>
+        <label name="feature" value="test_module_01"/>
+        <label name="severity" value="blocker"/>
+        <label name="story" value="test_story_01"/>
+        <label name="thread" value="11064-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1556105613179" status="passed" stop="1556105613179">
+          <name>字符串相加：hello，world</name>
+          <title>字符串相加：hello，world</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1556105613181" status="passed" stop="1556105613183">
+      <description>
+    用例描述：Test case 01
+    </description>
+      <name>test_baidu.test_case_01</name>
+      <attachments>
+        <attachment source="855382d9-6b89-41a6-acb7-67c0af02da2b-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="test_module_01"/>
+        <label name="severity" value="blocker"/>
+        <label name="story" value="test_story_01"/>
+        <label name="thread" value="11064-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1556105613185" status="passed" stop="1556105613187">
+      <description>
+    用例描述：Test case 02
+    </description>
+      <name>test_baidu.test_case_02</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_module_01"/>
+        <label name="severity" value="critical"/>
+        <label name="story" value="test_story_01"/>
+        <label name="thread" value="11064-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

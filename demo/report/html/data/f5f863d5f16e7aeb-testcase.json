@@ -1,0 +1,65 @@
+{
+  "uid" : "f5f863d5f16e7aeb",
+  "name" : "test_baidu.Testbaidu.test_k",
+  "title" : "Test k",
+  "time" : {
+    "start" : 1556173949724,
+    "stop" : 1556173956132,
+    "duration" : 6408
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TimeoutException: Message: 定位元素超时，请尝试其他定位方式\n",
+    "stackTrace" : "self = <demo.test_baidu.Testbaidu object at 0x10961a3c8>\n\n    def test_k(self):\n        try:\n            self.get('https://www.baidu.com/')\n            self.click('css=>#ssu')\n        except Exception as e:\n            print('测试失败 %s'% e)\n            self.report_add_attach_png(self.__class__.__name__)\n>           raise e\n\ndemo/test_baidu.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ndemo/test_baidu.py:23: in test_k\n    self.click('css=>#ssu')\ncore/webdriver_api.py:152: in click\n    el = self.get_element(css)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <demo.test_baidu.Testbaidu object at 0x10961a3c8>, css = 'css=>#ssu'\n\n    def get_element(self, css):\n        \"\"\"\n        Judge element positioning way, and returns the element.\n        \"\"\"\n        if \"=>\" not in css:\n            by = \"css\"\n            value = css\n        else:\n            by = css.split(\"=>\")[0]\n            value = css.split(\"=>\")[1]\n            if by == \"\" or value == \"\":\n                raise NameError(\n                    \"Grammatical errors, reference: 'id=>useranme'.\")\n    \n        time_out_error = \"定位元素超时，请尝试其他定位方式\"\n        if by == \"id\":\n            req = self.wait_element((By.ID, value))\n            if req is True:\n                element = self.driver.find_element_by_id(value)\n            else:\n                raise TimeoutException(time_out_error)\n        elif by == \"name\":\n            req = self.wait_element((By.NAME, value))\n            if req is True:\n                element = self.driver.find_element_by_name(value)\n            else:\n                raise TimeoutException(time_out_error)\n        elif by == \"class\":\n            req = self.wait_element((By.CLASS_NAME, value))\n            if req is True:\n                element = self.driver.find_element_by_class_name(value)\n            else:\n                raise TimeoutException(time_out_error)\n        elif by == \"link_text\":\n            req = self.wait_element((By.LINK_TEXT, value))\n            if req is True:\n                element = self.driver.find_element_by_link_text(value)\n            else:\n                raise TimeoutException(time_out_error)\n        elif by == \"xpath\":\n            req = self.wait_element((By.XPATH, value))\n            if req is True:\n                element = self.driver.find_element_by_xpath(value)\n            else:\n                raise TimeoutException(time_out_error)\n        elif by == \"css\":\n            req = self.wait_element((By.CSS_SELECTOR, value))\n            if req is True:\n                element = self.driver.find_element_by_css_selector(value)\n            else:\n>               raise TimeoutException(time_out_error)\nE               selenium.common.exceptions.TimeoutException: Message: 定位元素超时，请尝试其他定位方式\n\ncore/webdriver_api.py:91: TimeoutException"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3135363548638fc",
+    "name" : "demo",
+    "title" : "Demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Testbaidu",
+    "source" : "f3f2147f-89ef-46bd-a5b2-92aae0362473-attachment.png",
+    "type" : "image/png",
+    "size" : 37591,
+    "uid" : "25a1ab7bae28a23b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "23294-MainThread"
+  }, {
+    "name" : "feature",
+    "value" : "UI自动化测试集"
+  }, {
+    "name" : "story",
+    "value" : "基于Base(webdriver)类的cases"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

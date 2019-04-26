@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1556105613177,
+    "stop" : 1556105613187,
+    "duration" : 10
+  },
+  "testSuites" : [ {
+    "uid" : "4e9c483d91707586",
+    "name" : "demo",
+    "title" : "Demo",
+    "time" : {
+      "start" : 1556105613177,
+      "stop" : 1556105613187,
+      "duration" : 10
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "126b3e5dc5312b2d",
+      "name" : "test_allure_step.test_case",
+      "title" : "Test case",
+      "time" : {
+        "start" : 1556105613177,
+        "stop" : 1556105613180,
+        "duration" : 3
+      },
+      "severity" : "BLOCKER",
+      "status" : "PASSED"
+    }, {
+      "uid" : "afff448cf34cd883",
+      "name" : "test_baidu.test_case_01",
+      "title" : "Test case 01",
+      "time" : {
+        "start" : 1556105613181,
+        "stop" : 1556105613183,
+        "duration" : 2
+      },
+      "severity" : "BLOCKER",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6ff7dab65ffc31a5",
+      "name" : "test_baidu.test_case_02",
+      "title" : "Test case 02",
+      "time" : {
+        "start" : 1556105613185,
+        "stop" : 1556105613187,
+        "duration" : 2
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
