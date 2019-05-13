@@ -1,7 +1,12 @@
 # coding='utf-8'
+from importlib import reload
 
 import pytest, os, sys
-
+import sys
+defaultencoding = 'utf-8'
+if sys.getdefaultencoding() != defaultencoding:
+    reload(sys)
+    sys.setdefaultencoding(defaultencoding)
 """
 主函数执行入口，命令行执行：
 1.python3 run.py demo

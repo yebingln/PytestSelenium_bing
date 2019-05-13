@@ -2,7 +2,7 @@
 from .webdriver_api import WebDriver
 import pytest
 import allure
-from .allure_attach import report_attach
+
 
 
 # class BaseCase(WebDriver):

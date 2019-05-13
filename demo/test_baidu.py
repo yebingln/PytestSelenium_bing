@@ -19,7 +19,7 @@ class Testbaidu(Base):
     def test_k(self):
         try:
             self.get('https://www.baidu.com/')
-            self.click('css=>#ssu')
+            self.click('css=>#su')
         except Exception as e:
             print('测试失败 %s'% e)
             self.report_add_attach_png(self.__class__.__name__)
