@@ -3,16 +3,16 @@
   "data" : [ {
     "statistic" : {
       "total" : 3,
-      "passed" : 2,
+      "passed" : 3,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0
     },
     "time" : {
-      "start" : 1556173949724,
-      "stop" : 1556173956136,
-      "duration" : 6412
+      "start" : 1557729996634,
+      "stop" : 1557729999637,
+      "duration" : 3003
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -20,9 +20,9 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 1,
-      "message" : "TimeoutException: Message: 定位元素超时，请尝试其他定位方式\n",
-      "status" : "FAILED"
+      "count" : 0,
+      "message" : "There are no defects!",
+      "status" : "PASSED"
     } ]
   }, {
     "name" : "xunit",
@@ -31,10 +31,10 @@
       "title" : "Demo",
       "statistic" : {
         "total" : 3,
-        "passed" : 2,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0
       }
     } ]
@@ -45,10 +45,10 @@
       "title" : "UI自动化测试集",
       "statistic" : {
         "total" : 1,
-        "passed" : 0,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0
       }
     }, {

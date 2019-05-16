@@ -1,33 +1,33 @@
 {
   "testCases" : [ {
-    "uid" : "f5f863d5f16e7aeb",
+    "uid" : "919021c7c3449036",
     "name" : "test_baidu.Testbaidu.test_k",
     "title" : "Test k",
     "time" : {
-      "start" : 1556173949724,
-      "stop" : 1556173956132,
-      "duration" : 6408
+      "start" : 1557729996634,
+      "stop" : 1557729999632,
+      "duration" : 2998
     },
     "severity" : "NORMAL",
-    "status" : "FAILED"
+    "status" : "PASSED"
   }, {
-    "uid" : "b0b59ea6090578d7",
+    "uid" : "7d4faad003e90353",
     "name" : "test_baidu.test_case_01",
     "title" : "Test case 01",
     "time" : {
-      "start" : 1556173956134,
-      "stop" : 1556173956135,
-      "duration" : 1
+      "start" : 1557729999634,
+      "stop" : 1557729999636,
+      "duration" : 2
     },
     "severity" : "BLOCKER",
     "status" : "PASSED"
   }, {
-    "uid" : "c05e7053c0d16f8f",
+    "uid" : "4fd41b3dfb959388",
     "name" : "test_baidu.test_case_02",
     "title" : "Test case 02",
     "time" : {
-      "start" : 1556173956135,
-      "stop" : 1556173956136,
+      "start" : 1557729999636,
+      "stop" : 1557729999637,
       "duration" : 1
     },
     "severity" : "CRITICAL",
