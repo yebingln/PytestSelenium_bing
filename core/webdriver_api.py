@@ -58,7 +58,7 @@ class WebDriver(object):
                 raise NameError(
                     "Grammatical errors, reference: 'id=>useranme'.")
 
-        time_out_error = "定位元素超时，请尝试其他定位方式"
+        time_out_error = "Locate element timeout,please try other method"
         if by == "id":
             req = self.wait_element((By.ID, value))
             if req is True:

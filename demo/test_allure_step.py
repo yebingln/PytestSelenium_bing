@@ -2,8 +2,8 @@ import pytest
 import allure
 
 
-@allure.step("字符串相加：{0}，{1}")
-# 测试步骤，可通过format机制自动获取函数参数
+@allure.step("string add：{0}，{1}")
+# test step,automatically get param by format
 def str_add(str1, str2):
     if not isinstance(str1, str):
         return "%s is not a string" % str1

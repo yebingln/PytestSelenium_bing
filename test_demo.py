@@ -1,32 +1,33 @@
-import pytest
-import allure
 
-# def test_1():
-#     assert 0
+from appium import webdriver
 
-# @pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure')
-# @allure.features
-# def test_xfail_expected_failure():
-#     """this test is an xfail that will be marked as expected failure"""
-#     assert False
-#
-#
-# @pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure')
-#
-# def test_xfail_unexpected_pass():
-#     """this test is an xfail that will be marked as unexpected success"""
-#     assert True
-a = {"name": "", "contents": "21", "type": "img"}
-a .update( {"name":"3", "contents":"4", "type":"5"})
-# print(a)
-#
-# print("/Users/yebingbing/PycharmProjects/PytestSelenium_bing/demo/toolong.jpg".rsplit("/")[-1])
-import sys
-class a(object):
-    def t(self):
-        print(sys._getframe().f_code.co_name)
-aa=a()
-aa.t()
+def drivers():
+    desired_caps = {}
+    desired_caps['platformName'] = 'Android'
+    desired_caps['platformVersion'] = '4.4'
+    desired_caps['deviceName'] = '192.168.1.54:5555'
+    desired_caps['appPackage'] = 'com. xx'
+    #desired_caps['app'] = 'F:// debug.apk'
+    desired_caps['appActivity'] = 'com.xx.MainActivity'
+    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+    driver.implicitly_wait()
+    return driver
 
-# print(a.__class__)
 
+def testcase_home():
+    driver=drivers()
+    try:
+        driver.find_element_by_id("aa").click()
+        driver.find_element_by_id("aa").send_keys("33")
+
+
+        driver.quit()
+        driver.close()
+
+    except Exception as e:
+        print(e)
+
+
+
+if __name__=='__main__':
+    print(1 and 0 or 3)
