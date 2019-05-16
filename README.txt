@@ -1,9 +1,12 @@
 运行入口：run.py
-
 """
 主函数执行入口，命令行执行：
-1.python3 run.py demo  执行demo文件夹下的所有测试用例，不指定时默认为根目录下./
+1.python3 run.py demo
+  python3 run.py demo/test_baidu.py
+  执行demo文件夹下的所有测试用例，不指定时默认为根目录下./
+
 2.pytest的运行参数在pytest.ini里配置
+
 3.在相应的目录里生成report,打开report/html中index.html,为实际报告展示
 """
 
