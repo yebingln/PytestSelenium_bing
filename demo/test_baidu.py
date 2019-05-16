@@ -21,7 +21,7 @@ class Testbaidu(Base):
             self.get('https://www.baidu.com/')
             self.click('css=>#su')
         except Exception as e:
-            print('测试失败 %s'% e)
+            print('Test failed %s'% e)
             self.report_add_attach_png(self.__class__.__name__)
             raise e
 
@@ -38,7 +38,7 @@ class Testbaidu(Base):
 @allure.severity('blocker')
 def test_case_01():
     """
-    用例描述：Test case 01
+    Case Description:Test case 01
     """
     assert 1
 
@@ -48,7 +48,7 @@ def test_case_01():
 @allure.severity('critical')
 def test_case_02():
     """
-    用例描述：Test case 02
+    Case Description:Test case 02
     """
     assert 0 == 0
 
@@ -58,7 +58,7 @@ def test_case_02():
 @allure.severity('normal')
 def ttest_case_03():
     """
-    用例描述：Test case 03
+    Case Description:Test case 03
     """
     assert 1
 
@@ -68,7 +68,7 @@ def ttest_case_03():
 @allure.severity('minor')
 def ttest_case_04():
     """
-    用例描述：Test case 04
+    Case Description:Test case 04
     """
     assert 0 == 0
 
